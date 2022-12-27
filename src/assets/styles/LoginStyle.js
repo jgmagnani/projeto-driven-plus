@@ -11,48 +11,39 @@ const LoginStyle = {
   `,
   LogoLogin: styled.div`
     img {
-        width: 299px;
-        height: 49px;
-        margin-top: 134px;
-        margin-bottom: 100px;
+      width: 299px;
+      height: 49px;
+      margin-top: 134px;
+      margin-bottom: 100px;
     }
   `,
 
-  ContainerLogin: styled.div`
+  ContainerLogin: styled.form`
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 16px;
-    input{
-        height: 52px;
-        width: 299px;        
-        border-radius: 8px;
-        background: #FFFFFF;
-        margin-left: 8px;
+    input {
+      height: 52px;
+      width: 299px;
+      border-radius: 8px;
+      background: #ffffff;
+      margin-left: 8px;
     }
 
-    button{
-        height: 52px;
-        width: 298px;        
-        border-radius: 8px;        
-        background: #FF4791;
-        color: white;
-        font-family: Roboto;
-        font-size: 14px;
-        font-weight: 700;      
-
+    button {
+      height: 52px;
+      width: 298px;
+      border-radius: 8px;
+      background: #ff4791;
+      color: white;
+      font-family: Roboto;
+      font-size: 14px;
+      font-weight: 700;
     }
-
-    a {
-        font-family: Roboto;
-        font-size: 14px;
-        font-weight: 400;
-        line-height: 16px;
-        color: white;
-        
-    }
+    
   `,
 };
 
